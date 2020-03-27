@@ -1,24 +1,27 @@
 # kga-plugin-vue-cli
 
-## init project
+## config templates
+
+see `templates` folder
+
+## init plugin
+
+see `my-plugin.js`
+
+## config plugin in package.json
 
 ```
-vue create .
+"kga": {
+    "plugin": "./my-plugin.js",
+    "url": "http://localhost:3000",
+    "model": {
+      "name": "post",
+      "data": [
+        "title",
+        "author"
+      ]
+    }
+  }
+  
+...
 ```
-
-> select 'router'
-
-
-## config api server
-
-```
-npm i json-server --save-dev
-touch db.json
-```
-
-> config scripts `api: json-server --watch db.json`
-
-## reference
-
-https://cli.vuejs.org/  
-https://github.com/typicode/json-server

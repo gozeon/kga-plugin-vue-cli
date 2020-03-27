@@ -1,27 +1,26 @@
 # kga-plugin-vue-cli
 
-## config templates
-
-see `templates` folder
-
-## init plugin
-
-see `my-plugin.js`
-
-## config plugin in package.json
+## run plugin
 
 ```
-"kga": {
-    "plugin": "./my-plugin.js",
-    "url": "http://localhost:3000",
-    "model": {
-      "name": "post",
-      "data": [
-        "title",
-        "author"
-      ]
-    }
-  }
-  
-...
+kga
 ```
+
+## run api server
+
+```
+npm run api
+```
+
+## run vue serve
+
+```
+npm run serve
+```
+
+![](screen1.gif)
+
+
+## update model
+
+![](screen2.gif)

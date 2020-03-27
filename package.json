@@ -22,10 +22,10 @@
     "plugin": "./my-plugin.js",
     "url": "http://localhost:3000",
     "model": {
-      "name": "post",
+      "name": "comment",
       "data": [
-        "title",
-        "author"
+        "body",
+        "postId"
       ]
     }
   }

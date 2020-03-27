@@ -1,5 +1,24 @@
 {
-  "post": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comment": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
+  "post": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicodesss"
+    },
+    {
+      "title": "123",
+      "author": "123",
+      "id": 2
+    }
+  ],
+  "comment": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }

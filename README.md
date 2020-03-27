@@ -1,26 +1,16 @@
 # kga-plugin-vue-cli
 
-## run plugin
+## share plugin
+
+if you want to share you plugin, you can publish.  
+
+the fils just this:
 
 ```
-kga
+files: [
+    "templates",
+    "my-plugin.js"
+]
 ```
 
-## run api server
-
-```
-npm run api
-```
-
-## run vue serve
-
-```
-npm run serve
-```
-
-![](screen1.gif)
-
-
-## update model
-
-![](screen2.gif)
+> the `"main": "./my-plugin.js"`
